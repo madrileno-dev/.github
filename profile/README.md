@@ -5,14 +5,11 @@
   </picture>
 </p>
 
-Two templates for building a web product in Scala 3 and React, written to be worked on with a coding assistant.
+A Scala 3 backend template, written to be worked on with a coding assistant.
 
-| Repo | What it is |
-|---|---|
-| [madrileno](https://github.com/madrileno-dev/madrileno) | Scala 3 backend: http4s, Skunk, cats-effect, Postgres. Auth, scheduled jobs, outbox, feature flags, OpenTelemetry. Ships a committed `.mcp.json` (Metals plus a docs/source MCP server) and a `docs/` tree that doubles as the assistant's knowledge base. |
-| [madrileno-frontend](https://github.com/madrileno-dev/madrileno-frontend) | React 19 and TypeScript: Vite, TanStack Query, shadcn/ui. Built against an oRPC contract generated from the backend's routes, so backend drift is a compile error. SPA by default, SSR opt-in. |
+**[madrileno](https://github.com/madrileno-dev/madrileno)** is the project. http4s, Skunk, cats-effect and Postgres, with auth, scheduled jobs, an outbox, feature flags and OpenTelemetry already wired up. It ships a committed `.mcp.json` (Metals plus a docs/source MCP server) and a `docs/` tree that doubles as the assistant's knowledge base. The worked example is a wine auction site; `init-project` strips it and renames the project to yours.
 
-The worked example in both is a wine auction site. A rename script strips it and gives the project your own name.
+**[madrileno-frontend](https://github.com/madrileno-dev/madrileno-frontend)** is a companion starting point: a small React 19 and TypeScript app (Vite, TanStack Query, shadcn/ui) built against the oRPC contract generated from the backend's routes, so backend drift is a compile error. It covers the app shell, auth and the demo pages.
 
 Docs: [Quick start](https://github.com/madrileno-dev/madrileno#quick-start), [AI-assisted development](https://github.com/madrileno-dev/madrileno/blob/main/docs/ai-assisted-dev.md), [Architecture](https://github.com/madrileno-dev/madrileno/blob/main/docs/architecture.md).
 
