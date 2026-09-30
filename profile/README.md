@@ -11,6 +11,8 @@ A Scala 3 backend template, written to be worked on with a coding assistant.
 
 **[madrileno-frontend](https://github.com/madrileno-dev/madrileno-frontend)** is a companion starting point: a small React 19 and TypeScript app (Vite, TanStack Query, shadcn/ui) built against the oRPC contract generated from the backend's routes, so backend drift is a compile error. It covers the app shell, auth and the demo pages.
 
+**[madrileno-mobile](https://github.com/madrileno-dev/madrileno-mobile)** is the same idea for phones: a React Native app (Expo, Expo Router, TanStack Query, NativeWind) on the same generated contract. It adds what a native app needs: deep links, over-the-air updates through EAS and optional OpenObserve monitoring that traces each request into the backend.
+
 Docs: [Quick start](https://github.com/madrileno-dev/madrileno#quick-start), [AI-assisted development](https://github.com/madrileno-dev/madrileno/blob/main/docs/ai-assisted-dev.md), [Architecture](https://github.com/madrileno-dev/madrileno/blob/main/docs/architecture.md).
 
 Apache-2.0.

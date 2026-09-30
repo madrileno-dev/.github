@@ -21,3 +21,4 @@ def card(name, tagline, stack):
 
 card("social-backend", "AI-first Scala 3 backend template", "http4s · Skunk · cats-effect · Postgres · OpenTelemetry")
 card("social-frontend", "React frontend template for the madrileno backend", "React 19 · TypeScript · Vite · TanStack Query · oRPC · shadcn/ui")
+card("social-mobile", "React Native mobile template for the madrileno backend", "Expo · React Native · TypeScript · TanStack Query · oRPC · NativeWind")
