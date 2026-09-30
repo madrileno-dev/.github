@@ -66,7 +66,7 @@ open("README.md","w").write(f"""# madrileno brand pack
 |---|---|---|
 | Ink (m, text) | `{INK}` | `{CREAM}` |
 | Accent (tilde) | `{CRIMSON}` | `{CRIMSON_D}` |
-| Background | `{CREAM}` / transparent | `{CHAR}` / transparent |
+| Background | `#FFFFFF` / transparent | `{CHAR}` / transparent |
 
 Crimson `{CRIMSON}` is the Comunidad de Madrid flag red. The dark variant is lifted to `{CRIMSON_D}` so it holds contrast on charcoal.
 
