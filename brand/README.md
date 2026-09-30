@@ -5,7 +5,7 @@
 |---|---|---|
 | Ink (m, text) | `#1E1E24` | `#F5F1EA` |
 | Accent (tilde) | `#B5122B` | `#E0304A` |
-| Background | `#F5F1EA` / transparent | `#1E1E24` / transparent |
+| Background | `#FFFFFF` / transparent | `#1E1E24` / transparent |
 
 Crimson `#B5122B` is the Comunidad de Madrid flag red. The dark variant is lifted to `#E0304A` so it holds contrast on charcoal.
 
