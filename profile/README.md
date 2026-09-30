@@ -13,6 +13,8 @@ A Scala 3 backend template, written to be worked on with a coding assistant.
 
 **[madrileno-mobile](https://github.com/madrileno-dev/madrileno-mobile)** is the same idea for phones: a React Native app (Expo, Expo Router, TanStack Query, NativeWind) on the same generated contract. It adds what a native app needs: deep links, over-the-air updates through EAS and optional OpenObserve monitoring that traces each request into the backend.
 
-Docs: [Quick start](https://github.com/madrileno-dev/madrileno#quick-start), [AI-assisted development](https://github.com/madrileno-dev/madrileno/blob/main/docs/ai-assisted-dev.md), [Architecture](https://github.com/madrileno-dev/madrileno/blob/main/docs/architecture.md).
+Site: [madrileno.dev](https://madrileno.dev/). Docs: [Quick start](https://madrileno.dev/docs/getting-started/), [AI-assisted development](https://madrileno.dev/docs/ai-assisted-dev/), [Architecture](https://madrileno.dev/docs/architecture/). The [manifesto](https://madrileno.dev/manifesto/) is the reasoning behind the choices.
+
+Built and maintained by [Iterators](https://www.iteratorshq.com/), a software consulting company. Paid support and consulting at [madrileno.dev/support](https://madrileno.dev/support/).
 
 Apache-2.0.
